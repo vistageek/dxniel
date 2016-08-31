@@ -1,0 +1,36 @@
+@font-face {
+  font-family: PDV;
+  src: url("pdv.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+}
+body {
+    background: #101;
+    background: url("bg.gif") center center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.text {
+    color:#FC0;
+    font-family: 'PDV';
+    font-size: 80px;
+}
+#pos {
+    left: 50%;
+    top: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
