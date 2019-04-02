@@ -10,17 +10,12 @@
     -webkit-font-smoothing: antialiased;
     user-select: none;
     -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -khtml-user-select: none;
 }
 
 body {
     background: url("bg.gif") center center no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     overflow: hidden;
 }
 
@@ -69,17 +64,13 @@ body {
     }
 }
 
-#pos {
+.title {
     left: 50%;
     top: 45%;
     position: absolute;
     transform: translate(-50%, -45%);
     -webkit-transform: translate(-50%, -45%);
-    -moz-transform: translate(-50%, -45%);
-    -ms-transform: translate(-50%, -45%);
-}
-
-.text {
+    
     color: #FC0;
     font-family: 'PDV';
     font-size: 3em;
