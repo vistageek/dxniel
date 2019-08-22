@@ -32,40 +32,39 @@ body {
 }
 
 .gradient {
-  background: #ff3f71;
-  background-image: linear-gradient(120deg,#ff2d60,#ff9132,#ff61fa,#6caafd,#29ccff,#1deab9);
+  background-image: linear-gradient(65deg, #ff2d60, #ff9132, #ff61fa, #6caafd, #29ccff, #1deab9);
   background-repeat: no-repeat;
   background-size: 800% 400%;
   
   animation-name: bgGradient;
-  animation-duration: 15s;
+  animation-duration: 10s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
+  animation-direction: alternate-reverse;
   animation-play-state: running;
-    
+  
   -webkit-animation-name: bgGradient;
-  -webkit-animation-duration: 15s;
+  -webkit-animation-duration: 10s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
+  -webkit-animation-direction: alternate-reverse;
   -webkit-animation-play-state: running;
 }
 
 @keyframes bgGradient {
-  0% {
-    background-position: 0% 50%;
-  }
-    
-  100% {
-    background-position: 100% 50%;
-  }
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+@-webkit-keyframes bgGradient {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }
 
 .title {
+  position: absolute;
   left: 50%;
   top: 45%;
-  position: absolute;
   transform: translate(-50%, -45%);
   -webkit-transform: translate(-50%, -45%);
   
