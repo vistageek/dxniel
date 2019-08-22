@@ -6,11 +6,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120439019-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-120439019-1');
+window.dataLayer = window.dataLayer || [];
+function gtag(){ dataLayer.push(arguments); }
+gtag('js', new Date());
+gtag('config', 'UA-120439019-1');
 </script>
 </head>
-<body><div id="bg" class="gradient"></div><div class="title">dxniel.com</div></body>
+<body><div id="bg" class="gradient"></div><div class="title">dxniel.com</div>
+<script>
+document.getElementById("bg").style.backgroundImage = 'linear-gradient(65deg, ' + random() + ', ' + random() + ', ' + random() + ', ' + random() + ', ' + random() + ', ' + random() + ')';
+function random() {
+  var ran = '#' + Math.floor(Math.random()*16777215).toString(16);
+  return ran;
+}
+</script>
+</body>
 </html>
