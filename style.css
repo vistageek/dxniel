@@ -15,15 +15,14 @@
 body {
   background: url("bg.gif") center center no-repeat;
   background-size: cover;
-  -webkit-background-size: cover;
   overflow: hidden;
 }
 
 #bg {
-  position: fixed;
   display: block;
   width: 100%;
   height: 100%;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -62,13 +61,12 @@ body {
 }
 
 .title {
+  color: #FC0;
+  font-family: 'PDV';
+  font-size: 3em;
   position: absolute;
   left: 50%;
   top: 45%;
   transform: translate(-50%, -45%);
   -webkit-transform: translate(-50%, -45%);
-  
-  color: #FC0;
-  font-family: 'PDV';
-  font-size: 3em;
 }
