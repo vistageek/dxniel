@@ -1,3 +1,9 @@
+@font-face {
+  font-family: PDV;
+  src: url("pdv.ttf");
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +13,8 @@
   -webkit-user-select: none;
 }
 
-@font-face {
-  font-family: PDV;
-  src: url("pdv.ttf");
-  font-display: swap;
+html, body {
+  height: 100%;
 }
 
 body {
